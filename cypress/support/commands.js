@@ -1,0 +1,41 @@
+// ***********************************************
+// This example commands.js shows you how to
+// create various custom commands and overwrite
+// existing commands.
+//
+// For more comprehensive examples of custom
+// commands please read more here:
+// https://on.cypress.io/custom-commands
+// ***********************************************
+//
+//
+// -- This is a parent command --
+// Cypress.Commands.add('login', (email, password) => { ... })
+//
+//
+// -- This is a child command --
+// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
+//
+//
+// -- This is a dual command --
+// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
+//
+//
+// -- This will overwrite an existing command --
+// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+//Cypress.Commands.add('requestCPF', () => {
+//    return cy.request({
+//        method: 'GET',
+//        url: 'https://gerador.app/api/cpf/generate',
+//        headers: {
+//            "Accept": "application/json",
+//            "Authorization": "Bearer BrNk52ZHJ31U9brGAHgWwNUD02Go7RQXTwuPytIW"
+//        }
+//    }).as('requestCPF')
+//})
+
+Cypress.Commands.add('stepNotImplemented', () => {
+    console.log("O step não foi implementado!");
+    cy.log("O step não foi implementado!")
+})

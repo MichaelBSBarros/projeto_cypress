@@ -1,0 +1,15 @@
+{
+    "tipo":{
+      
+      "valido": {
+        "user": "standard_user",
+        "password": "secret_sauce"
+       },
+  
+      "invalido":{
+        "user": "teste_!",
+        "password": "secret_1"
+      }
+    
+    }
+}
