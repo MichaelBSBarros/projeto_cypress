@@ -13,15 +13,16 @@
   "devDependencies": {
     "cypress": "^8.0.0",
     "cypress-cucumber-preprocessor": "^4.2.0",
+    "faker": "^5.5.3",
     "fs-extra": "^10.0.0",
     "jsonschema": "^1.4.0",
     "rimraf": "^3.0.2"
   },
-  "cypress-cucumber-preprocessor":{
-    "nonGlobalStepDefinitions": false, 
-    "step_definitions": "cypress/integration/step_definitions", 
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/step_definitions",
     "cucumberJson": {
-      "generate": false, 
+      "generate": false,
       "outputFolder": "cypress/report/cucumber-json"
     }
   }

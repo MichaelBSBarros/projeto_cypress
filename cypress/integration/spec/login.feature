@@ -4,10 +4,12 @@ Feature: Login
         Given que esteja na página de login
         
  
-    Scenario Outline: Realizar login
+    Scenario Outline: Realizar login com usuário tipo "<tipo>"
         When logar com um usuário do tipo "<tipo>"
-        Then deverá "<resultado>"
         Examples:
-            | tipo     | resultado                      |
-            | valido   | ser direcionado para a home    |
-            | invalido | deverá notificar acesso negado |
+            | tipo               |
+            | valid              |
+            | empty              |
+            | locked             |
+            | problem            |
+          #  | performance_glitch |
