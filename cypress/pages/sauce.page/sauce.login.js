@@ -22,23 +22,15 @@ export class Sauce_login extends Base {
         //        return { 
         //            tipoUser : true
         //        }
-        //
         //    case 'locked_out_user':
         //        return {
         //            tipoUser : false,
         //            msg : "Sorry, this user has been locked out."    
         //        }
-        //
         //    case 'problem_user':
         //            return {
         //                tipoUser : true    
         //            }
-        //
-        //    //case 'performance_glitch_user':
-        //    //        return {
-        //    //            tipoUser : false    
-        //    //            }
-        //
         //    case ' ':
         //        return {
         //            tipoUser : false,
