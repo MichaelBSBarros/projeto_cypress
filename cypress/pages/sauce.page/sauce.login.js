@@ -45,7 +45,8 @@ export class Sauce_login extends Base {
         //};
 
         if (usuario == 'standard_user' || usuario == 'problem_user') {
-        
+            
+            cy.get(log.BTN_OPTIONS).click()
             cy.get(log.BTN_LOGOUT).should('exist')
         
         }else if (usuario == 'locked_out_user') {
