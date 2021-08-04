@@ -6,8 +6,7 @@ const Login = {
     BTN_OPTIONS     : '#react-burger-menu-btn',
     BTN_LOGOUT      : '#logout_sidebar_link',
     WRN_LOGIN_FAIL  : '[data-test="error"]'
-
-
+    
 }
 export{Login}
 
