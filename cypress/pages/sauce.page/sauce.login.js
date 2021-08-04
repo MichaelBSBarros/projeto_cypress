@@ -39,10 +39,15 @@ export class Sauce_login extends Base {
         };
 
         if (tipoUser == true){
+            cy.get(log.BTN_OPTIONS).click()
             cy.get(log.BTN_LOGOUT).should('exist')
+            cy.wait(1000)
+
         }else{
             cy.get(log.WRN_LOGIN_FAIL).should('contain.text', msg)
+            cy.wait(1000)
+
         };
-              
+
     }
 }

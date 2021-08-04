@@ -8,8 +8,7 @@ Feature: Login
         When logar com um usuário do tipo "<tipo>"
         Examples:
             | tipo               |
-            | valid              |
             | empty              |
-            | locked             |
             | problem            |
-          #  | performance_glitch |
+            | locked             |
+            | valid              |
