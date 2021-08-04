@@ -42,6 +42,7 @@ export class Sauce_login extends Base {
             cy.get(log.BTN_OPTIONS).click()
             cy.get(log.BTN_LOGOUT).should('exist')
             cy.wait(1000)
+            cy.get(log.BTN_CLOSE_OPTIONS).click()
 
         }else{
             cy.get(log.WRN_LOGIN_FAIL).should('contain.text', msg)
