@@ -25,8 +25,8 @@ export default class Factory {
                         }
             case 'empty':
                 return {
-                    "usuario": "",
-                    "password": ""     
+                    "usuario": " ",
+                    "password": " "     
                 }
                 
             default:
