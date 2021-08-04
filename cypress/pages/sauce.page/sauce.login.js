@@ -36,7 +36,7 @@ export class Sauce_login extends Base {
         //            tipoUser : false,
         //            msg : "Username is required"     
         //        }
-        //}
+        //};
         //
         //if (tipoUser == true){
         //    cy.get(log.BTN_LOGOUT).should('exist')
